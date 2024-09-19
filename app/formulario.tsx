@@ -35,7 +35,7 @@ export default function TelaFormulario(){
                 <Text style={{color: '#fff'}}>Salvar</Text>
             </Botao>
             <Botao onPress={() => nav.dispatch(DrawerActions.openDrawer)}>
-                <Text style={{color: '#fff', gap: 10}}>Clique</Text>
+                <Text style={{color: '#fff', gap: 10}}>Voltar</Text>
             </Botao>
         </View>
     )
